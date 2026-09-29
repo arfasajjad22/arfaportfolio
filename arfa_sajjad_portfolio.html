@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arfa Sajjad — Portfolio 2026</title>
+<style>
+:root { --bg:#f5f1eb; --ink:#171615; --muted:#77716a; --line:#d8d0c7; }
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body { margin:0; background:var(--bg); color:var(--ink); font-family:Georgia,serif; line-height:1.55; }
+.container { width:min(1180px,92%); margin:auto; }
+.hero { min-height:88vh; display:grid; place-items:center; text-align:center; border-bottom:1px solid var(--line); }
+.hero h1 { font-size:clamp(3rem,8vw,7rem); font-weight:400; margin:0; letter-spacing:.04em; }
+.kicker,.meta { font:11px Arial,sans-serif; letter-spacing:.16em; text-transform:uppercase; color:var(--muted); }
+.tagline { margin:25px 0 12px; letter-spacing:.15em; text-transform:uppercase; }
+nav { position:sticky; top:0; z-index:5; background:#f5f1ebee; backdrop-filter:blur(10px); border-bottom:1px solid var(--line); }
+nav .inner { display:flex; justify-content:center; gap:25px; flex-wrap:wrap; padding:14px; }
+nav a { text-decoration:none; font:11px Arial,sans-serif; letter-spacing:.12em; text-transform:uppercase; color:var(--ink); }
+section { padding:90px 0; border-bottom:1px solid var(--line); }
+h2 { font-size:clamp(2.2rem,5vw,4rem); font-weight:400; }
+h3 { font-size:clamp(1.5rem,3vw,2.4rem); font-weight:400; margin:8px 0; }
+p { color:#4f4a45; max-width:720px; }
+.about,.grid { display:grid; grid-template-columns:repeat(2,1fr); gap:45px; }
+.about { grid-template-columns:1fr 1.4fr; gap:70px; }
+.skills { display:grid; grid-template-columns:repeat(3,1fr); gap:30px; margin-top:40px; }
+.skill { border-top:1px solid var(--line); padding-top:16px; }
+.item { border-top:1px solid var(--line); padding-top:18px; }
+.item > img { width:100%; display:block; background:#eee9e2; object-fit:contain; }
+.card { border:1px solid var(--line); padding:25px; background:#ffffff22; }
+.card img { width:100%; display:block; max-height:500px; object-fit:contain; background:#eee9e2; margin-bottom:22px; }
+.button { display:inline-block; padding:11px 15px; border:1px solid var(--ink); text-decoration:none; font:11px Arial,sans-serif; letter-spacing:.12em; margin-top:10px; }
+footer { padding:80px 0; text-align:center; }
+@media(max-width:760px) { .about,.grid,.skills { grid-template-columns:1fr; } section { padding:60px 0; } }
+</style>
+</head>
+<body>
+<header class="hero">
+<div>
+<div class="kicker">Fashion Design Portfolio</div>
+<h1>ARFA SAJJAD</h1>
+<div class="tagline">Timeless Silhouettes · Modern Royalty</div>
+<div>Selected Collection · Womenswear + Menswear · 2026</div>
+</div>
+</header>
+
+<nav><div class="inner">
+<a href="#about">About</a><a href="#fashion">Fashion Designs</a><a href="#websites">Websites</a><a href="#logos">Logos</a>
+</div></nav>
+
+<section id="about"><div class="container">
+<div class="kicker">01 / About Me</div>
+<div class="about">
+<div><h2>Creative direction with a complete visual world.</h2></div>
+<div>
+<p>I’m Arfa Sajjad. I’m a creative designer with a strong interest in fashion, visual identity and digital design.</p>
+<p>My design approach is driven by elegance, detail and a clear visual identity. I’m especially drawn to refined luxury, dramatic silhouettes, rich textures, jewellery-inspired details and sophisticated colour palettes.</p>
+</div>
+</div>
+<div class="skills">
+<div class="skill"><b>FASHION DESIGN</b><p>Couture concepts<br>Silhouette development<br>Styling & detailing</p></div>
+<div class="skill"><b>BRANDING</b><p>Logo concepts<br>Visual identity<br>Luxury direction</p></div>
+<div class="skill"><b>WEB DESIGN</b><p>Website concepts<br>Layout & aesthetics<br>Digital presentation</p></div>
+</div>
+</div></section>
+
+<section id="fashion"><div class="container">
+<div class="kicker">02 / The Collection</div>
+<h2>Selected Looks</h2>
+<p>A curated eight-look fashion selection exploring romantic couture, statement eveningwear and luxury menswear.</p>
+<div class="grid">
+<article class="item">
+<img src="fashion-designs/01-midnight-crystal.png" alt="MIDNIGHT CRYSTAL">
+<div class="meta">01 · WOMENSWEAR</div>
+<h3>MIDNIGHT CRYSTAL</h3>
+<p>Navy and lavender couture, crystal embellishment, corsetry and fluid asymmetric draping.</p>
+</article>
+<article class="item">
+<img src="fashion-designs/02-noir-bloom.png" alt="NOIR BLOOM">
+<div class="meta">02 · WOMENSWEAR</div>
+<h3>NOIR BLOOM</h3>
+<p>A dark evening silhouette combining structured tailoring, satin and delicate floral detail.</p>
+</article>
+<article class="item">
+<img src="fashion-designs/03-champagne-bloom.png" alt="CHAMPAGNE BLOOM">
+<div class="meta">03 · WOMENSWEAR</div>
+<h3>CHAMPAGNE BLOOM</h3>
+<p>Champagne couture with black floral appliqué, sculpted construction and layered volume.</p>
+</article>
+<article class="item">
+<img src="fashion-designs/04-champagne-veil.png" alt="CHAMPAGNE VEIL">
+<div class="meta">04 · WOMENSWEAR</div>
+<h3>CHAMPAGNE VEIL</h3>
+<p>An elongated champagne evening silhouette focused on softness, proportion and refined draping.</p>
+</article>
+<article class="item">
+<img src="fashion-designs/05-the-serpent-corset.png" alt="THE SERPENT CORSET">
+<div class="meta">05 · WOMENSWEAR</div>
+<h3>THE SERPENT CORSET</h3>
+<p>Black velvet, emerald detailing and a sculptural serpent motif with jewel-like accents.</p>
+</article>
+<article class="item">
+<img src="fashion-designs/06-the-velvet-sovereign.png" alt="THE VELVET SOVEREIGN">
+<div class="meta">06 · MENSWEAR</div>
+<h3>THE VELVET SOVEREIGN</h3>
+<p>Black velvet tailoring with emerald accents and antique-gold hardware.</p>
+</article>
+<article class="item">
+<img src="fashion-designs/07-the-imperial-coat.png" alt="THE IMPERIAL COAT">
+<div class="meta">07 · MENSWEAR</div>
+<h3>THE IMPERIAL COAT</h3>
+<p>Burgundy, black and gold with elongated proportions and ornate embroidery.</p>
+</article>
+<article class="item">
+<img src="fashion-designs/08-the-long-structured-coat.png" alt="THE LONG STRUCTURED COAT">
+<div class="meta">08 · MENSWEAR</div>
+<h3>THE LONG STRUCTURED COAT</h3>
+<p>A dark structured coat built around strong shoulders, clean geometry and a long line.</p>
+</article></div>
+</div></section>
+
+<section id="websites"><div class="container">
+<div class="kicker">Web Design</div>
+<h2>Web Experiences</h2>
+<div class="grid">
+<article class="card"><img src="websites/01-nosh-cafe.png" alt="Nosh Cafe website">
+<div class="meta">01 / WEBSITE DESIGN</div><h3>Nosh Cafe</h3>
+<p>Restaurant website · Editorial layout · Responsive UI</p>
+<a class="button" href="https://bloom-web-make.lovable.app" target="_blank">OPEN LIVE WEBSITE</a>
+</article>
+<article class="card"><img src="websites/02-ottoman-cafe.png" alt="Ottoman Cafe website">
+<div class="meta">02 / WEBSITE DESIGN</div><h3>Ottoman Cafe</h3>
+<p>Restaurant website · Visual hierarchy · Mobile-aware layout</p>
+<a class="button" href="https://ottomancafe.lovable.app" target="_blank">OPEN LIVE WEBSITE</a>
+</article>
+</div>
+</div></section>
+
+<section id="logos"><div class="container">
+<div class="kicker">Brand Identity</div><h2>Logo Design</h2>
+<div class="grid">
+<article class="card">
+<img src="logos/logo-1.png" alt="Beauty Salon logo">
+<div class="meta">LOGO CONCEPT / 01</div>
+<h3>Beauty Salon</h3><p>Elegant beauty-studio identity</p>
+</article>
+<article class="card">
+<img src="logos/logo-2.png" alt="Hyuna Studio logo">
+<div class="meta">LOGO CONCEPT / 02</div>
+<h3>Hyuna Studio</h3><p>Soft editorial studio identity</p>
+</article></div>
+</div></section>
+
+<footer><div class="container">
+<div class="kicker">ARFA SAJJAD</div><h2>Fashion · Branding · Digital Design</h2>
+<p style="margin:auto">Thank you for viewing my work.</p>
+</div></footer>
+</body>
+</html>
